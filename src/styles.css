@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: yellow;
+}
+
+footer {
+  background-color: black;
+}
+
+main {
+  background-color: white;
+  padding: 5px;
+  float: left;
+  width: 70%;
+}
+
+section,
+article {
+  background-color: #ffffff;
+  margin: 15px;
+}
+
+section h1,
+article h1 {
+  background-color: yellow;
+  box-shadow: 1px 1px #000000;
+  margin-top: 1px;
+}
+
+aside {
+  background-color: yellow;
+  padding: 15px;
+  float: left;
+  width: 30%;
+}
+
+p {
+  font-size: 1.5em;
+  text-align: justify;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #b3b3b3;
+}
+
+nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.container {
+  display: flex;
+}
